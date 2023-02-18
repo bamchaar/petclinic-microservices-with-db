@@ -42,7 +42,7 @@ import java.util.Optional;
 @Slf4j
 class OwnerResource {
 
-    private final OwnerRepository ownerRepository;
+    private final OwnerRepository ownerRepository = null;
 
     /**
      * Create Owner
